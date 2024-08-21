@@ -1,10 +1,14 @@
+import AddTodo from "./Components/AddTodo";
+import Todos from "./Components/Todos";
 
 
 function App() {
   return (
-    <div className="App">
-     Redux todo
-    </div>
+    <>
+     <h1>Learn about redux toolkit</h1>
+     <AddTodo/>
+     <Todos/>
+    </>
   );
 }
 
